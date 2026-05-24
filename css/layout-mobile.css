@@ -970,6 +970,21 @@
   margin: 0 4px 4px 0;
 }
 
+.sanseimai-shelf-card .savepoint-fields div {
+  border-top-color: rgba(26, 21, 44, 0.14);
+}
+
+.sanseimai-shelf-card .savepoint-fields dt {
+  color: rgba(156, 113, 29, 0.98);
+}
+
+.sanseimai-shelf-card .savepoint-fields dd,
+.sanseimai-shelf-card .savepoint-fields p,
+.sanseimai-shelf-card .plain-list,
+.sanseimai-shelf-card .plain-list li {
+  color: #141225;
+}
+
 .shelf-card-actions {
   align-items: center;
 }

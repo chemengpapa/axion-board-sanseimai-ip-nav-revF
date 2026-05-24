@@ -141,6 +141,7 @@ PWA登録は `file://` では動きません。`http://localhost` またはGitHu
 ## 次回改善案
 
 - Issuesの編集機能
+- Issues一覧とIssue詳細を別画面に分ける
 - Evidence独立画面
 - Decision Log独立画面
 - 個人JSONのバリデーション

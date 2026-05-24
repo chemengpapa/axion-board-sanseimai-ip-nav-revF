@@ -1,4 +1,4 @@
-const CACHE_VERSION = "revF-v1";
+const CACHE_VERSION = "revF-v2";
 const CACHE_NAME = `axion-board-sanseimai-ip-nav-${CACHE_VERSION}`;
 
 const CORE_ASSETS = [

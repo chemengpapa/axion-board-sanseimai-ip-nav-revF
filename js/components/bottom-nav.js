@@ -4,7 +4,7 @@ const NAV_ITEMS = [
   { id: "issues", label: "Issues" },
   { id: "shelves", label: "Shelves" },
   { id: "save", label: "Save" },
-  { id: "settings", label: "設定" }
+  { id: "settings", label: "Settings" }
 ];
 
 export function renderBottomNav(activeView) {
