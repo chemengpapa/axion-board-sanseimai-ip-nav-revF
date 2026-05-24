@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Axion Board - 三姉妹実装ナビ - RevF</title>
+  <meta name="theme-color" content="#130d25" />
+  <meta name="description" content="三姉妹IPを社会に出すまでのPhase、棚、課題、根拠、判断ログを扱う個人用ナビ。" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="三姉妹ナビ" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/pwa/axion-board-icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout-mobile.css" />
+  <link rel="stylesheet" href="css/theme-lunier.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <main id="app" class="app-main" aria-live="polite">
+      <section class="loading-view">
+        <p class="eyebrow">Sanseimai IP Navigation</p>
+        <h1>読み込み中</h1>
+        <p>三姉妹IP社会実装ナビを整えています。</p>
+      </section>
+    </main>
+    <nav id="bottomNav" class="bottom-nav" aria-label="画面切り替え"></nav>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/pwa.js"></script>
+</body>
+</html>

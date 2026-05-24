@@ -1,0 +1,398 @@
+{
+  "schema_version": "axion-board-sanseimai-ip-nav.revF",
+  "updated_at": "",
+  "month": "template",
+  "month_label": "公開用テンプレート",
+  "theme": "作品を薄めず、読者が迷わない入口を整える",
+  "status": "public-template",
+  "current_week": 1,
+  "today_shelf_ids": ["rpg", "note", "design-docs"],
+  "guide": {
+    "home": "今はPhase 2。全部を広げず、人に見せられる短編体験へ整えましょう。",
+    "save": "止める理由と再開条件を残せば、置いた棚は消えません。"
+  },
+  "priorities": [
+    "RPG体験版の入口から章クリアまでを通す",
+    "note導線を初見向けに整える",
+    "設計資料を公開前チェックに使える形へ寄せる"
+  ],
+  "not_to_do": [
+    "未公開メモやローカルパスを公開フォルダに置かない",
+    "課題を増やしすぎない",
+    "数字だけで公開判断をしない"
+  ],
+  "success_conditions": [
+    "Phase 2の完了条件が見える",
+    "今週動かす3本が分かる",
+    "保留する棚が安心して置ける"
+  ],
+  "weeks": [
+    { "id": 1, "label": "W1", "range": "公開用テンプレート確認" },
+    { "id": 2, "label": "W2", "range": "個人JSONインポート後に調整" },
+    { "id": 3, "label": "W3", "range": "Phase課題の棚卸し" },
+    { "id": 4, "label": "W4", "range": "Save Point確認" }
+  ],
+  "weekly_focus": {
+    "week": 1,
+    "items": [
+      "RPG: タイトルから次回予告までの体験線を確認する",
+      "note導線: 初見が最初に読む入口を確認する",
+      "設計資料: 公開前に確認する項目だけを見える化する"
+    ]
+  },
+  "shelves": [
+    {
+      "id": "general",
+      "name": "全般",
+      "category": "IP運用",
+      "status": "基盤整理",
+      "priority": "中",
+      "energy": "中",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "社会実装フロー全体の現在地を見失わない状態にする。",
+      "next_action": "Phase 2と保留棚を見比べ、今週動かす3本だけを確認する。",
+      "memo": "公開用seedには実データを入れない。",
+      "links": [],
+      "avatar": "axion",
+      "icon_asset_id": "axion_icon_01",
+      "related_phases": ["phase-1", "phase-2", "phase-5", "phase-6", "phase-7"],
+      "source_files": ["public-template://overview"]
+    },
+    {
+      "id": "note",
+      "name": "note",
+      "category": "公開導線",
+      "status": "導線整理",
+      "priority": "高",
+      "energy": "中",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "初見が迷わず作品入口に進める導線を整える。",
+      "next_action": "固定記事、プロフィール、RPGリンクの役割を確認する。",
+      "memo": "販売数や反応メモは個人JSON側で管理する。",
+      "links": [],
+      "avatar": "amaryllis",
+      "icon_asset_id": "amaryllis_icon_01",
+      "related_phases": ["phase-1", "phase-3", "phase-4", "phase-5", "phase-6", "phase-7"],
+      "source_files": ["public-template://note-entry"]
+    },
+    {
+      "id": "novel",
+      "name": "小説",
+      "category": "原作",
+      "status": "核を保守",
+      "priority": "中",
+      "energy": "中",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "プロローグから第1章の意味づけを薄めず、体験版の芯として扱う。",
+      "next_action": "RPG体験で説明しすぎる箇所と、読ませる箇所を分ける。",
+      "memo": "本文や未公開メモは公開seedに入れない。",
+      "links": [],
+      "avatar": "ordina",
+      "icon_asset_id": "ordina_icon_01",
+      "related_phases": ["phase-0", "phase-2", "phase-7"],
+      "source_files": ["public-template://novel-core"]
+    },
+    {
+      "id": "blue-pdp",
+      "name": "青PDP",
+      "category": "設定・素材",
+      "status": "保守中",
+      "priority": "中",
+      "energy": "中",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "三姉妹IPの核となる設定や素材の位置づけを確認できる状態にする。",
+      "next_action": "公開してよい素材と、個人保管の素材を分ける。",
+      "memo": "ローカルパス、未公開素材メモは公開seedに入れない。",
+      "links": [],
+      "avatar": "logos",
+      "icon_asset_id": "logos_icon_01",
+      "related_phases": ["phase-0"],
+      "source_files": ["public-template://blue-pdp-policy"]
+    },
+    {
+      "id": "world-archive",
+      "name": "ワールドアーカイブ",
+      "category": "世界観導線",
+      "status": "入口整理",
+      "priority": "中",
+      "energy": "軽い",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "初見が世界観に入るための補助線を整える。",
+      "next_action": "RPG体験版と設定資料のどちらから読むかを迷わせない導線を確認する。",
+      "memo": "公開済みリンクだけをpublic_linksに入れる。",
+      "links": [],
+      "avatar": "logos",
+      "icon_asset_id": "lumiana_icon_01",
+      "related_phases": ["phase-1", "phase-2", "phase-3", "phase-5"],
+      "source_files": ["public-template://world-archive"]
+    },
+    {
+      "id": "rpg",
+      "name": "RPG",
+      "category": "体験Vertical Slice",
+      "status": "進行中・最重点",
+      "priority": "高",
+      "energy": "重い",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "プロローグから第1章ブラウザRPG体験版を、人に見せられる短編体験として磨く。",
+      "next_action": "タイトル、会話、マップ、戦闘、章クリアまたは次回予告まで通るか確認する。",
+      "memo": "RPG本体との直接連携はRevFでは行わない。",
+      "links": [],
+      "avatar": "ordina",
+      "icon_asset_id": "ordina_icon_01",
+      "related_phases": ["phase-2", "phase-3", "phase-4", "phase-5", "phase-6", "phase-7"],
+      "source_files": ["public-template://rpg-vertical-slice"]
+    },
+    {
+      "id": "design-docs",
+      "name": "設計資料",
+      "category": "根拠・判断",
+      "status": "公開前整理",
+      "priority": "高",
+      "energy": "中",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "公開前チェックと判断ログに使える資料の役割を分ける。",
+      "next_action": "根拠ファイルと判断ログの対応をダミー構造で確認する。",
+      "memo": "実ファイル名、ローカルパス、未公開制作メモは個人JSON側で扱う。",
+      "links": [],
+      "avatar": "axion",
+      "icon_asset_id": "axion_icon_01",
+      "related_phases": ["phase-0", "phase-1", "phase-2", "phase-3", "phase-4", "phase-7"],
+      "source_files": ["public-template://design-docs"]
+    },
+    {
+      "id": "axion-board",
+      "name": "Axion Board",
+      "category": "運用基盤",
+      "status": "PWA運用",
+      "priority": "中",
+      "energy": "軽い",
+      "start_week": 1,
+      "end_week": 4,
+      "monthly_goal": "止めても再開できるSave PointとJSONバックアップの運用を守る。",
+      "next_action": "公開前にseed、README、assets、docsを確認する。",
+      "memo": "GitHub Pagesには空フォーマットだけを置く。",
+      "links": [],
+      "avatar": "axion",
+      "icon_asset_id": "axion_icon_01",
+      "related_phases": ["phase-7"],
+      "source_files": ["public-template://axion-board"]
+    }
+  ],
+  "parking_lot": [
+    { "shelf_id": "blue-pdp", "name": "青PDP", "reason": "今週は素材選別を広げすぎない。" },
+    { "shelf_id": "world-archive", "name": "ワールドアーカイブ", "reason": "RPG体験線が通ってから入口を詰める。" }
+  ],
+  "savepoints": [
+    {
+      "id": "save-rpg",
+      "shelf_id": "rpg",
+      "saved_at": "template",
+      "current_location": "Phase 2の体験Vertical Sliceを確認する段階。",
+      "completed": "公開用テンプレートとして、RPG棚と関連Phaseの構造だけを用意した。",
+      "resume_next": "個人JSONをインポートし、実課題をPhase 2に紐づける。",
+      "stop_reason": "公開seedには実データを入れないため。",
+      "resume_conditions": "ローカルで個人JSONを用意できたとき。",
+      "forgettable": "実ファイル名、ローカルパス、反応メモは公開seedでは忘れてよい。",
+      "notes": "",
+      "icon_asset_id": "ordina_icon_01"
+    },
+    {
+      "id": "save-design-docs",
+      "shelf_id": "design-docs",
+      "saved_at": "template",
+      "current_location": "根拠と判断ログの表示枠を用意した段階。",
+      "completed": "ダミーissue、evidence、decision_logの構造を確認できる。",
+      "resume_next": "実データはローカルJSONで読み込む。",
+      "stop_reason": "公開フォルダへ制作メモを置かないため。",
+      "resume_conditions": "公開してよい情報と非公開情報を分離できたとき。",
+      "forgettable": "未公開の判断理由や販売数は公開seedでは扱わない。",
+      "notes": "",
+      "icon_asset_id": "axion_icon_01"
+    }
+  ],
+  "settings_preview": [],
+  "assets": [],
+  "settings": {
+    "current_board_id": "sanseimai-ip-nav-template",
+    "theme": "lunier",
+    "guide_character_asset_id": "axion_icon_01",
+    "last_saved_at": ""
+  },
+  "ip_nav": {
+    "schema_version": "sanseimai-ip-nav.revF",
+    "current_phase": "phase-2",
+    "current_location": {
+      "label": "Phase 2｜体験Vertical Slice",
+      "description": "プロローグ〜第1章ブラウザRPG体験版を、人に見せられる短編体験として磨く段階"
+    },
+    "most_important_policy": "作品を薄めず、読者が迷わない入口を整える",
+    "monthly_focus": ["RPG", "note導線", "設計資料"],
+    "weekly_top3": [
+      "RPG体験版の通し確認",
+      "noteからRPGへの入口確認",
+      "公開前チェック項目の棚卸し"
+    ],
+    "phases": [
+      {
+        "id": "phase-0",
+        "label": "Phase 0｜IP核の固定",
+        "purpose": "三姉妹、ルミナ、黒紫ルミナ、アマリリス、プロローグの意味づけを固定する。",
+        "related_shelves": ["小説", "青PDP", "設計資料"],
+        "status": "完了寄り・保守中",
+        "completion_conditions": []
+      },
+      {
+        "id": "phase-1",
+        "label": "Phase 1｜初見導線の整備",
+        "purpose": "note固定記事、プロフィール、ワールドアーカイブ、設定資料、RPG導線を整える。",
+        "related_shelves": ["note", "ワールドアーカイブ", "設計資料"],
+        "status": "並行実施",
+        "completion_conditions": []
+      },
+      {
+        "id": "phase-2",
+        "label": "Phase 2｜体験Vertical Slice",
+        "purpose": "プロローグ〜第1章ブラウザRPG体験版を、人に見せられる短編体験として磨く。",
+        "related_shelves": ["RPG", "小説", "設計資料", "ワールドアーカイブ"],
+        "status": "進行中・最重点",
+        "completion_conditions": [
+          "タイトル→会話→マップ→戦闘→章クリアまたは次回予告まで通る",
+          "スマホ横画面で大きく崩れない",
+          "初見向けに何を体験するゲームか説明できる",
+          "公開前の要確認課題が棚卸しされている"
+        ]
+      },
+      {
+        "id": "phase-3",
+        "label": "Phase 3｜公開パッケージ化",
+        "purpose": "RPG体験版、設定資料、スクショ、制作メモ、note記事を外部向けにまとめる。",
+        "related_shelves": ["note", "RPG", "設計資料", "ワールドアーカイブ"],
+        "status": "次フェーズ",
+        "completion_conditions": [
+          "人にURLを送ったとき、何を見ればよいか分かる",
+          "無料紹介記事、RPGリンク、設定資料、遊び方、制作メモが接続されている"
+        ]
+      },
+      {
+        "id": "phase-4",
+        "label": "Phase 4｜小規模公開・反応確認",
+        "purpose": "note、限定公開、身近な読者、購入者、プレイヤーの反応を見る。",
+        "related_shelves": ["note", "RPG", "設計資料"],
+        "status": "未着手",
+        "completion_conditions": [
+          "数字の大小ではなく、次に改善すべき場所が分かる",
+          "noteのスキ、コメント、有料資料購入、RPG感想、自分の納得感を記録できる"
+        ]
+      },
+      {
+        "id": "phase-5",
+        "label": "Phase 5｜改善・再配置",
+        "purpose": "反応をもとに、導線、体験、資料、公開範囲を直し、伸ばす棚と保留する棚を決める。",
+        "related_shelves": ["全般", "note", "RPG", "設計資料", "ワールドアーカイブ"],
+        "status": "未着手",
+        "completion_conditions": [
+          "次に動かす棚が1〜2個に絞れている",
+          "伸ばすもの、直すもの、保留するものが判断ログに残っている"
+        ]
+      },
+      {
+        "id": "phase-6",
+        "label": "Phase 6｜次展開の選択",
+        "purpose": "第2章RPG、次の設定資料、BOOTH展開、ワールドアーカイブ整備などから次の展開を選ぶ。",
+        "related_shelves": ["全般", "RPG", "設計資料", "note", "ワールドアーカイブ"],
+        "status": "未着手",
+        "completion_conditions": [
+          "次に広げるものと、今は保留するものが決まっている"
+        ]
+      },
+      {
+        "id": "phase-7",
+        "label": "Phase 7｜IP棚化・継続運用",
+        "purpose": "公開物、設定資料、制作記録、課題、判断ログを棚として残し、止まっても再開できる状態にする。",
+        "related_shelves": ["全般", "Axion Board", "note", "設計資料", "RPG", "小説"],
+        "status": "基盤構築中",
+        "completion_conditions": [
+          "公開リンク集、設定資料一覧、RPG版一覧、制作記録、判断ログ、Save Pointが残っている",
+          "一度止めても、次に何をすればよいか分かる"
+        ]
+      }
+    ],
+    "milestones": [],
+    "issues": [
+      {
+        "issue_id": "SAN-RPG-TEMPLATE-001",
+        "shelf": "RPG",
+        "shelf_id": "rpg",
+        "phase": "phase-2",
+        "issue_type": "要確認事項",
+        "title": "体験版の通し確認チェック",
+        "description": "タイトルから次回予告まで、初見が迷わず進めるかを確認するためのダミー課題です。",
+        "background": "公開seedには実課題を入れず、表示枠の確認だけを行います。",
+        "next_action_candidate": "個人JSONをインポートし、実際の確認項目に置き換える。",
+        "priority_temp": "高",
+        "status": "要確認",
+        "confidence": "テンプレート",
+        "due_temp": "未設定",
+        "source_file": "public-template://rpg-vertical-slice-checklist",
+        "source_folder": "public-template://rpg",
+        "notes": "実データ、ローカルパス、制作メモは入れない。",
+        "related_evidence": ["EVD-TEMPLATE-001"],
+        "related_decision": ["DEC-TEMPLATE-001"]
+      },
+      {
+        "issue_id": "SAN-NOTE-TEMPLATE-001",
+        "shelf": "note",
+        "shelf_id": "note",
+        "phase": "phase-1",
+        "issue_type": "導線確認",
+        "title": "初見向け入口の確認",
+        "description": "noteから作品入口へ迷わず進めるかを確認するためのダミー課題です。",
+        "background": "公開済みリンクだけを扱い、反応メモや販売数は個人JSONへ分離します。",
+        "next_action_candidate": "公開リンクだけをpublic_linksに入れる。",
+        "priority_temp": "中",
+        "status": "保留",
+        "confidence": "テンプレート",
+        "due_temp": "未設定",
+        "source_file": "public-template://note-entry",
+        "source_folder": "public-template://note",
+        "notes": "note運用判断メモは公開しない。",
+        "related_evidence": [],
+        "related_decision": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "EVD-TEMPLATE-001",
+        "source_file": "public-template://rpg-vertical-slice-checklist",
+        "source_folder": "public-template://rpg",
+        "evidence_type": "template",
+        "shelf": "RPG",
+        "summary": "公開用のダミー根拠です。実ファイル名やローカルパスは入れません。",
+        "last_checked_at": "",
+        "trust_level": "テンプレート",
+        "notes": ""
+      }
+    ],
+    "decision_log": [
+      {
+        "decision_id": "DEC-TEMPLATE-001",
+        "decision_date": "template",
+        "decision": "公開seedには実データを入れない",
+        "reason": "GitHub Pagesにはアプリ本体と空フォーマットだけを置くため。",
+        "related_issue_id": "SAN-RPG-TEMPLATE-001",
+        "next_review": "個人JSON作成時",
+        "source_file": "public-template://data-policy",
+        "notes": ""
+      }
+    ],
+    "public_links": []
+  }
+}
